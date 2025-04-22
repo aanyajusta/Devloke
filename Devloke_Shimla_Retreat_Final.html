@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Devloke Shimla Retreat</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green: #2e8b57;
+      --light-green: #edf8f1;
+      --dark: #1f1f1f;
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: var(--dark);
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('https://bc-user-uploads.brandcrowd.com/public/media-Production/8083fdfa-076c-4540-ae48-e3db5c0b7a67/b25a6843-31a8-4c51-b378-17b62e1aa9d3_thumb') center/cover no-repeat;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: var(--green);
+      text-align: center;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: var(--green);
+    }
+
+    .room-card {
+      background: #f9f9f9;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .room-card:hover {
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .room-card h3 {
+      margin-top: 0;
+      color: var(--green);
+    }
+
+    .room-card p {
+      font-size: 1.1em;
+    }
+
+    .room-card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: var(--green);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+
+    .gallery-link {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: var(--green);
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .form-button {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: var(--green);
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    .contact a {
+      color: var(--green);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      background-color: var(--green);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .booking-form input, .booking-form textarea, .booking-form button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    .booking-form button {
+      background-color: var(--green);
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Devloke Shimla Retreat</h1>
+    <p>RELAX. RENEW. REJUVENATE.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="#booking">Book Your Stay</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Devloke</h2>
+    <p>
+      <strong>DEVLOKE SHIMLA RETREAT – A Luxurious Stay Amidst the Hills</strong><br/><br/>
+      Located in Shimla, en route to many hill destinations, Devloke Shimla Retreat offers breathtaking hill views and sunlight all day. 
+      Designed with modern yet wooden architecture, the apartments provide a perfect blend of elegance and warmth.
+    </p>
+    <p>
+      Each unit features spacious bedrooms with attached washrooms, a private balcony, a fully equipped kitchen, and premium Jaguar bathroom fittings. 
+      Guests enjoy free parking and 24/7 security with CCTV surveillance for a safe, worry-free stay.
+    </p>
+    <p>
+      Whether for a relaxing getaway or a stopover, experience unmatched comfort and scenic beauty at Devloke Shimla Retreat. Book your stay now!
+    </p>
+  </section>
+
+  <section id="rooms">
+    <h2>Our Rooms & Pricing</h2>
+
+    <div class="room-card">
+      <h3>3-Floor Property (1st: 1 Room, 2nd & 3rd: 2 Rooms Each)</h3>
+      <p>Each floor has a private balcony, kitchen, and dining area. Ideal for larger groups or families.</p>
+      <p><strong>Price:</strong> ₹12,000 - ₹15,000 per night</p>
+      <a href="https://www.airbnb.co.in/rooms/1342446888752898719" target="_blank">View on Airbnb</a>
+    </div>
+
+    <div class="room-card">
+      <h3>Wooden Cottage Feel</h3>
+      <p>Warm wooden interiors offering a cozy vibe. Discounts available on Airbnb.</p>
+      <p><strong>Price:</strong> ₹7,400 per night</p>
+      <a href="https://www.airbnb.co.in/rooms/1386971571240130554" target="_blank">View on Airbnb</a>
+    </div>
+
+    <div class="room-card">
+      <h3>2BHK Set</h3>
+      <p>Comfortable 2-bedroom unit perfect for families or small groups.</p>
+      <p><strong>Price:</strong> ₹6,500 per night</p>
+      <a href="https://www.airbnb.co.in/rooms/1387002565254136948" target="_blank">View on Airbnb</a>
+    </div>
+
+    <div class="room-card">
+      <h3>1BHK Set</h3>
+      <p>Ideal for couples or solo travelers. Compact, affordable and well-equipped.</p>
+      <p><strong>Price:</strong> ₹3,600 per night</p>
+      <a href="https://www.airbnb.co.in/rooms/1387007022662117110" target="_blank">View on Airbnb</a>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <p>Click below to explore images of our property, rooms, views, and more.</p>
+    <a href="https://drive.google.com/drive/folders/1aCNaKpPlPdotUFW_sqj-BZJZoh79KB8K?usp=drive_link" target="_blank" class="gallery-link">View Gallery</a>
+  </section>
+
+  <section id="booking">
+    <h2>Book Your Stay</h2>
+    <p>Fill in the details below to book your stay. We will get back to you shortly to confirm your booking!</p>
+    <form class="booking-form" action="https://docs.google.com/forms/d/e/1FAIpQLScfw2JN2GbZcXblDmmUn0JjC3bZLLgRRpVErU_qnjFl3tJiOg/viewform?usp=sf_link" method="get">
+      <input type="text" name="name" placeholder="Your Full Name" required />
+      <input type="email" name="email" placeholder="Your Email Address" required />
+      <input type="tel" name="phone" placeholder="Your Phone Number" required />
+      <textarea name="message" placeholder="Any special requests or requirements?" rows="4"></textarea>
+      <button type="submit">Submit Booking Request</button>
+    </form>
+  </section>
+
+  <section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>🏡 Devloke Shimla Retreat</strong><br/>
+     Your peaceful hillside escape 🌄</p>
+  <p><strong>📍 Location:</strong> 
+    <a href="https://maps.app.goo.gl/icwKCxS8rJgWKSkw9" target="_blank">
+      View on Google Maps
+    </a>
+  </p>
+  <p><strong>📞 Call:</strong> <a href="tel:+919815613303">+91 9815613303</a></p>
+  <p><strong>📧 Email:</strong> <a href="mailto:bharat.sumukh@gmail.com">bharat.sumukh@gmail.com</a></p>
+</section>
+
